@@ -1,7 +1,7 @@
 # My Project Brief
 
 ## The question
-How has urban expansion transformed the spatial structure of Agege Metropolitan Area from 1984 to 2026, and where has this expansion occurred relative to population growth and existing settlements?
+How has urban expansion transformed the spatial structure of Agege Local Government Area from 1984 to 2026, and where has this expansion occurred relative to population growth and existing settlements?
 
 ## The data I need
 - Settlement Extent - GRID3 NGA - https://data.grid3.org/ - GeoPackage - 3.25MB
