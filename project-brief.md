@@ -41,11 +41,17 @@
 
 | S/N | Dataset | Role | Source | File Format | File Size 
 |---|---|---|---|---|---|
-|1 | GRID3 NGA | Settlement Extent | https://data.grid3.org/ | GeoPackage | 3.25MB |
-|2 | Google Earth Engine | Landsat Imagery  covering 1985, 2000, 2010, 2020, and 2025 | https://code.earthengine.google.com/ | TIF | 1.5GB |
-|3 | WorldPop | Population Data covering year 2020 and 2024 | https://hub.worldpop.org/ | TIF | 650MB |
-|4 | WorldPop | Built Up Data | https://hub.worldpop.org/ | TIF | 150MB
-|5 | AfricaGeoPortal | LGA Boundary Data | https://www.africageoportal.com/ | GeoPackage | 120KB
+|1 | Lagos State & LGA Boundaries (20 LGAs) | Defines the boundaries for the study area and breaks the analysis down by LGA, so basin sites can be identified within each one | [Google Earth Engine](https://code.earthengine.google.com/) | `GeoJSON` | 208KB |
+|2 | FABDEM v1.2 (Bare Earth Elevation Data) | Shows the actual ground elevation with buildings and trees removed, used to work out slope, how water flows across the land, and how wet different areas tend to get — all needed to model where flooding accumulates | [Awesome GEE Community Catalog](https://gee-community-catalog.org/) | `GeoTIFF` | 42MB |
+|3 | Lagos Drainage Network & Canals | Used to correct the elevation data so that raised roads don't accidentally look like dams blocking water flow, and to measure how close each area is to an actual drainage channel — a key flood risk factor | [OpenStreetMap](https://overpass-turbo.eu/) | `GeoJSON` | 14MB |
+|4 | Google Open Buildings V3 | Maps every permanent building across the state, so we can measure how much built-up area falls inside high risk flood zones | [Google Open Buildings](https://sites.research.google/) | `GeoJSON` | 1.4GB
+|5 | Complete Drivable Road Network | Breaks roads into 50 meter sections and checks each one against the flood hazard map, to measure how much road length would actually be underwater and how badly that disrupts the road network | [GeoFabrik Nigeria Extract](https://download.geofabrik.de/) | `OSM PBF` | 48MB
+|6 | Dynamic World 10m Land Use Data | Measures how much of the ground is paved or built-over versus natural, which determines how much rainfall runs off instead of soaking in — a key input for predicting runoff | [Google Earth Engine](https://code.earthengine.google.com/) | `GeoTIFF` | 86MB
+|7 | SoilGrids 250m v2.0 (Clay, Sand, Silt) | Maps soil composition to work out how well the ground can absorb water in different areas — important for deciding where a retention basin would actually work | [ISRIC SoilGrids WCS](https://isric.org/) | `GeoTIFF` | 16MB
+|8 | CHIRPS Daily Rainfall Data | Provides historical rainfall records, including the heaviest 24 hour storms on record, used to calculate how much water would run off during a serious storm | [Google Earth Engine](https://code.earthengine.google.com/) | `GeoTIFF` | 4MB
+|9 | Public & Institutional Land | Provides the pool of candidate sites — schools, transport depots, open spaces, sports grounds — that get screened down to three viable public locations per LGA | [QuickOSM](https://grid3.org/) | `GeoJSON` | 22MB
+|10 | Protected Ecological Reserves | Marks off limits areas — protected conservation zones and mangrove reserves — to make sure no retention basin is placed somewhere it shouldn't be | [World Database on Protected Areas (WDPA)](https://www.protectedplanet.ne) | `GeoJSON` | 1.8MB
+|11 | Sentinel-1 Satellite Radar Imagery | Checks the flood zones the model predicts against actual satellite images of past flooding during peak rainy seasons, to confirm the model is accurate | [Google Earth Engine](https://code.earthengine.google.com/) | `GeoTIFF` | 65MB
 
 > If any datasets is uncertain, state it with your fallback plan.
 
@@ -59,4 +65,4 @@
 - **Risk 1:** What could go wrong and how you will go about it
 - **Risk 2:** What could go wrong and how you will go about it
 
-**Status:** Week 1 not completed. Data acquisition in Week 2, See [02-data-notes.md](data-notes.md).
+**Status:** Week 1 not completed yet. Data acquisition in Week 2, See [02-data-notes.md](data-notes.md).
