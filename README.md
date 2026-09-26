@@ -11,8 +11,9 @@ See **project-brief.md** for the full brief.
 
 ## The Question
 
-> Which buildings and roads in Lagos State are at high risk of flooding, and
-> where are the ***three (3)*** best public sites to build water basins in each LGA to help manage that risk?
+> Which buildings and roads in **Lagos State** are at high risk of flooding, and
+> where are the ***three (3)*** best public sites to build water basins in each
+> **Local Government Area (LGA)** to help manage that risk?
 
 ## Project Structure
 
