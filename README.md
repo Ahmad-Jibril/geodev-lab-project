@@ -1,7 +1,7 @@
 # Flood Mapping & Mitigation
 
-This project is directed to the Governor of Lagos State, which maps the **causes of flood, the risks it brings,** 
-**and the solution needed to solve the problem across Lagos, Nigeria.**
+This project is directed to *Lagos State Urban and Regional Planners,* which states the **causes of flood, the risks it brings,** 
+**and the solution needed to solve the flooding problem across Lagos, Nigeria.**
 
 ***GeoDev Lab Africa, Cohort One.***
 
