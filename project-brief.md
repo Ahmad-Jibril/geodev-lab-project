@@ -8,15 +8,27 @@
 
 ## 1. The Question
 
-> One sentence, Specific, Place-based, Answerable
+> Which homes and major roads in Lagos are at high risk of flooding,
+> and where are the three best public sites to build water basins to help manage that risk?
 
 ## 2. Why This Question
 
-> Two or Three sentences on why it matters, and why you care enough to carry it out for twelve months
+> Every year, Lagos State floods — and it's not just a traffic headache.
+> Thousands of homes end up being flooded, major roads people rely on to
+> get to work or move goods become impassable, and the financial and health
+> toll falls hardest on communities that can least afford it.
+> Most existing research stops at showing where the danger is — producing
+> maps and hazard models — without going the extra step of identifying actual,
+> buildable solutions that city authorities could put into action.
+
+> I've experienced this flooding firsthand, and it's what's driving me to
+> spend the next twelve months doing the deeper work that will ultimately
+> identify ***three (3)*** real public sites for water retention basins — solutions
+> that would directly protect the people and infrastructure at risk.
 
 ## 3. Study Area
 
-> The place named precisely and state how you will define its boundary
+> ***Lagos State, Nigeria,*** using its official state and Local Government Area (LGA) boundaries as defined by national administrative records.
 
 ## 4. What I Mean by The Terms
 
