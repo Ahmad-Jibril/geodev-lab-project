@@ -4,9 +4,11 @@
 
 **Author:** *Ahmad Jibril-Adeyemi*
 
-```
+---
+
+``
 What I downloaded, where it came from, what is in it, and what is wrong with it.
-```
+``
 
 ## Summary
 
