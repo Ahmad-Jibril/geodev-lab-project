@@ -19,17 +19,17 @@ See **project-brief.md** for the full brief.
 
 ```
 Flood Mapping & Mitigation/
-  docs/
-    01-project-brief.md           Week 1
-    02-data-notes.md              Week 2
-    03-data-preparation.md        Week 3
-    04-month-1-summary.md         Week 4
-  data/
-    raw/                          downloaded,
+└── docs/
+    └── 01-project-brief.md           Week 1
+    └── 02-data-notes.md              Week 2
+    └── 03-data-preparation.md        Week 3
+    └── 04-month-1-summary.md         Week 4
+└── data/
+    └── raw/                          downloaded,
 not committed
-    processed/                    output,
-  scripts/
-  requirements.txt
+    └── processed/                    output,
+└── scripts/
+└── requirements.txt
 ```
 
 ## Progress
