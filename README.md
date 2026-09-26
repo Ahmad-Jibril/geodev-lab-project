@@ -11,7 +11,7 @@ See **project-brief.md** for the full brief.
 
 ## The Question
 
-> Which homes and major roads in Lagos are at high risk of flooding, and
+> Which buildings and roads in Lagos State are at high risk of flooding, and
 > where are the ***three (3)*** best public sites to build water basins to help manage that risk?
 
 ## Project Structure
