@@ -51,7 +51,7 @@
 |8 | CHIRPS Daily Rainfall Data | Provides historical rainfall records, including the heaviest 24 hour storms on record, used to calculate how much water would run off during a serious storm | [Google Earth Engine](https://code.earthengine.google.com/) | `GeoTIFF` | 3KB
 |9 | Public & Institutional Land | Provides the pool of candidate sites — schools, transport depots, open spaces, sports grounds — that get screened down to three viable public locations per LGA | [QuickOSM](https://grid3.org/) | `GeoJSON` | 22MB
 |10 | Protected Ecological Reserves | Marks off limits areas — protected conservation zones and mangrove reserves — to make sure no retention basin is placed somewhere it shouldn't be | [World Database on Protected Areas (WDPA)](https://www.protectedplanet.net) | `GeoJSON` | 384KB
-|11 | Sentinel-1 Satellite Radar Imagery | Checks the flood zones the model predicts against actual satellite images of past flooding during peak rainy seasons, to confirm the model is accurate | [Google Earth Engine](https://code.earthengine.google.com/) | `GeoTIFF` | 1015.8MB
+|11 | Sentinel-1 Satellite Radar Imagery | Checks the flood zones the model predicts against actual satellite images of past flooding during peak rainy seasons, to confirm the model is accurate | [Google Earth Engine](https://code.earthengine.google.com/) | `GeoTIFF` | 1016MB
 
 > If any datasets is uncertain, state it with your fallback plan.
 
