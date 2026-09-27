@@ -34,7 +34,7 @@ not committed
 
 ## Progress
 
-- [ ] Week 1, project brief with a source link for every dataesets
+- [x] Week 1, project brief with a source link for every dataesets
 - [ ] Week 2, data downloaded, opened, and described
 - [ ] Week 3, reprojected, clipped, and quality check
 - [ ] Week 4, first spatial analysis
