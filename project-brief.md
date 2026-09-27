@@ -63,4 +63,4 @@
 - **Risk 1:** What could go wrong and how you will go about it
 - **Risk 2:** What could go wrong and how you will go about it
 
-**Status:** Week 1 completed yet. Data acquisition in Week 2, See [02-data-notes.md](data-notes.md).
+**Status:** Week 1 completed. Data acquisition in Week 2, See [02-data-notes.md](data-notes.md).
