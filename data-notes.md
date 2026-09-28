@@ -17,7 +17,7 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 |1 | Lagos State LGA Boundaries | Vector | No | Processing |
 |2 | FABDEM (Bare Earth Elevation) | Raster | Yes | Good |
 |3 | Lagos Drainage Network & Canal | Vector | Yes | Good |
-|4 | Google Open Buildings | Vector | Yes | Good |
+|4 | Google Open Buildings V3 | Vector | Yes | Good |
 |5 | Motorable Roads | Vector | Yes | Good |
 |6 | Land Use Data | Raster | Yes | Good |
 |7 | Soil Composition Grids | Raster | Yes | Good |
@@ -50,52 +50,52 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 
 ## 2. FABDEM (Bare Earth Elevation Data)
 
-- **Source:** Awesome GEE Community Catalog through Google Earth Engine
+- **Source:** Awesome GEE Community Catalog through Google Earth Engine (GDAL)
 - **Retrieved:** Yes
 - **File:** `data/raw/Lagos_BareEarth_FABDEM_30m`
 - **Format:** GeoTIFF
 - **Geometry Type:** Raster
-- **Feature Count:** Nil
+- **Feature Count:** 1 band
 - **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
 
-## 3. 
+## 3. Lagos Drainage Network & Canal
 
-- **Source:**
-- **Retrieved:**
-- **File:** `data/raw/filename`
-- **Format:**
-- **Geometry Type:**
-- **Feature Count:**
-- **CRS as Downloaded:**
+- **Source:** Open Street Map through QGIS (Ogr)
+- **Retrieved:** Yes
+- **File:** `data/raw/Lagos_Drainage_Canals_Network`
+- **Format:** GeoPackage 
+- **Geometry Type:** Line (LineString)
+- **Feature Count:** 22
+- **CRS as Downloaded:** EPSG:4326 - WGS 84
 
 ## Key Columns
 
 | Column | What it Entails | Nulls |
 |---|---|---|
-|`column 1` | description | count |
-|`column 2` | description | count |
-|`column 3` | description | count |
+|`waterway` | What type of network it is i.e Is it a drain or a canal | Nil |
+|`name` | The name of the Drainage/Canal | 1003 |
+| `tunnel` | description | 736 |
 
 **What I noticed**
 
-> Gaps, duplcates, odd values, name spelling that differ from your other datasets
+> The datasets takes longer than required to load sometimes
 
-## 4.
+## 4. Google Open Buildings 
 
-- **Source:**
-- **Retrieved:**
-- **File:** `data/raw/filename`
-- **Format:**
-- **Geometry Type:**
-- **Feature Count:**
-- **CRS as Downloaded:**
+- **Source:** Google-Microsoft Open Buildings
+- **Retrieved:** Yes
+- **File:** `data/raw/Lagos_Google_Open_Building`
+- **Format:** GeoPackage
+- **Geometry Type:** Polygon
+- **Feature Count:** 8
+- **CRS as Downloaded:** EPSG:4326 - WGS 84
 
 ## Key Columns
 
 | Column | What it Entails | Nulls |
 |---|---|---|
-|`column 1` | description | count |
-|`column 2` | description | count |
+|`waterway` |  | count |
+|`name` | The names of the  | count |
 |`column 3` | description | count |
 
 **What I noticed**
