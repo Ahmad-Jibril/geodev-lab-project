@@ -14,17 +14,17 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 
 | S/N | Dataset | Type | Retrieved | Status |
 |---|---|---|---|---|
-|1 |  |  |  | Partial |
-|2 |  |  |  |  |
-|3 |  |  |  |  |
-|4 |  |  |  |  |
-|5 |  |  |  |  |
-|6 |  |  |  |  |
-|7 |  |  |  |  |
-|8 |  |  |  |  |
-|9 |  |  |  |  |
-|10 |  |  |  |  |
-|11 |  |  |  |  |
+|1 | Lagos State LGA Boundaries | Vector | Nil | Processing |
+|2 | FABDEM (Bare Earth Elevation) | Raster | GEE | Downloaded |
+|3 | Lagos Drainage Network & Canal | Vector | OSM | Downloaded |
+|4 | Google Open Buildings | Vector | Google-Microsoft Open Buildings | Downloaded |
+|5 | Motorable Roads | Vector | GeoFabrik | Downloaded |
+|6 | Land Use Data | Raster | GEE | Downloaded |
+|7 | Soil Composition Grids | Raster | ISRIC SoilGrids WCS | Downloaded |
+|8 | Rainfall Data | Raster | GEE | Downloaded |
+|9 | Public & Institutional Land | Vector | QuickOSM | Downloaded |
+|10 | Protected Ecological Reserves | Vector | WDPA | Downloaded |
+|11 | Sentinel-1 Satellite Imagery | Vector | GEE | Downloaded |
 
 ## 1. Lagos LGA Boundary
 
