@@ -14,17 +14,17 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 
 | S/N | Dataset | Type | Retrieved | Status |
 |---|---|---|---|---|
-|1 | Lagos State LGA Boundaries | Vector | Nil | Processing |
-|2 | FABDEM (Bare Earth Elevation) | Raster | GEE | Downloaded |
-|3 | Lagos Drainage Network & Canal | Vector | OSM | Downloaded |
-|4 | Google Open Buildings | Vector | Google-Microsoft Open Buildings | Downloaded |
-|5 | Motorable Roads | Vector | GeoFabrik | Downloaded |
-|6 | Land Use Data | Raster | GEE | Downloaded |
-|7 | Soil Composition Grids | Raster | ISRIC SoilGrids WCS | Downloaded |
-|8 | Rainfall Data | Raster | GEE | Downloaded |
-|9 | Public & Institutional Land | Vector | QuickOSM | Downloaded |
-|10 | Protected Ecological Reserves | Vector | WDPA | Downloaded |
-|11 | Sentinel-1 Satellite Imagery | Vector | GEE | Downloaded |
+|1 | Lagos State LGA Boundaries | Vector | No | Processing |
+|2 | FABDEM (Bare Earth Elevation) | Raster | Yes | Good |
+|3 | Lagos Drainage Network & Canal | Vector | Yes | Good |
+|4 | Google Open Buildings | Vector | Yes | Good |
+|5 | Motorable Roads | Vector | Yes | Good |
+|6 | Land Use Data | Raster | Yes | Good |
+|7 | Soil Composition Grids | Raster | Yes | Good |
+|8 | Rainfall Data | Raster | Yes | Good |
+|9 | Public & Institutional Land | Vector | Yes | Good|
+|10 | Protected Ecological Reserves | Vector | Yes | Good |
+|11 | Sentinel-1 Satellite Imagery | Vector | Yes | Good |
 
 ## 1. Lagos LGA Boundary
 
@@ -48,29 +48,17 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 
 > Gaps, duplcates, odd values, name spelling that differ from your other datasets
 
-## 2.
+## 2. FABDEM (Bare Earth Elevation Data)
 
-- **Source:**
-- **Retrieved:**
-- **File:** `data/raw/filename`
-- **Format:**
-- **Geometry Type:**
-- **Feature Count:**
-- **CRS as Downloaded:**
+- **Source:** Awesome GEE Community Catalog through Google Earth Engine
+- **Retrieved:** Yes
+- **File:** `data/raw/Lagos_BareEarth_FABDEM_30m`
+- **Format:** GeoTIFF
+- **Geometry Type:** Raster
+- **Feature Count:** Nil
+- **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
 
-## Key Columns
-
-| Column | What it Entails | Nulls |
-|---|---|---|
-|`column 1` | description | count |
-|`column 2` | description | count |
-|`column 3` | description | count |
-
-**What I noticed**
-
-> Gaps, duplcates, odd values, name spelling that differ from your other datasets
-
-## 3.
+## 3. 
 
 - **Source:**
 - **Retrieved:**
