@@ -14,11 +14,17 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 
 | S/N | Dataset | Type | Retrieved | Status |
 |---|---|---|---|---|
-|1 |  |  |  |  |
+|1 |  |  |  | Partial |
 |2 |  |  |  |  |
 |3 |  |  |  |  |
 |4 |  |  |  |  |
 |5 |  |  |  |  |
+|6 |  |  |  |  |
+|7 |  |  |  |  |
+|8 |  |  |  |  |
+|9 |  |  |  |  |
+|10 |  |  |  |  |
+|11 |  |  |  |  |
 
 ## 1. Lagos LGA Boundary
 
@@ -43,6 +49,204 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 > Gaps, duplcates, odd values, name spelling that differ from your other datasets
 
 ## 2.
+
+- **Source:**
+- **Retrieved:**
+- **File:** `data/raw/filename`
+- **Format:**
+- **Geometry Type:**
+- **Feature Count:**
+- **CRS as Downloaded:**
+
+## Key Columns
+
+| Column | What it Entails | Nulls |
+|---|---|---|
+|`column 1` | description | count |
+|`column 2` | description | count |
+|`column 3` | description | count |
+
+**What I noticed**
+
+> Gaps, duplcates, odd values, name spelling that differ from your other datasets
+
+## 3.
+
+- **Source:**
+- **Retrieved:**
+- **File:** `data/raw/filename`
+- **Format:**
+- **Geometry Type:**
+- **Feature Count:**
+- **CRS as Downloaded:**
+
+## Key Columns
+
+| Column | What it Entails | Nulls |
+|---|---|---|
+|`column 1` | description | count |
+|`column 2` | description | count |
+|`column 3` | description | count |
+
+**What I noticed**
+
+> Gaps, duplcates, odd values, name spelling that differ from your other datasets
+
+## 4.
+
+- **Source:**
+- **Retrieved:**
+- **File:** `data/raw/filename`
+- **Format:**
+- **Geometry Type:**
+- **Feature Count:**
+- **CRS as Downloaded:**
+
+## Key Columns
+
+| Column | What it Entails | Nulls |
+|---|---|---|
+|`column 1` | description | count |
+|`column 2` | description | count |
+|`column 3` | description | count |
+
+**What I noticed**
+
+> Gaps, duplcates, odd values, name spelling that differ from your other datasets
+
+## 5.
+
+- **Source:**
+- **Retrieved:**
+- **File:** `data/raw/filename`
+- **Format:**
+- **Geometry Type:**
+- **Feature Count:**
+- **CRS as Downloaded:**
+
+## Key Columns
+
+| Column | What it Entails | Nulls |
+|---|---|---|
+|`column 1` | description | count |
+|`column 2` | description | count |
+|`column 3` | description | count |
+
+**What I noticed**
+
+> Gaps, duplcates, odd values, name spelling that differ from your other datasets
+
+## 6.
+
+- **Source:**
+- **Retrieved:**
+- **File:** `data/raw/filename`
+- **Format:**
+- **Geometry Type:**
+- **Feature Count:**
+- **CRS as Downloaded:**
+
+## Key Columns
+
+| Column | What it Entails | Nulls |
+|---|---|---|
+|`column 1` | description | count |
+|`column 2` | description | count |
+|`column 3` | description | count |
+
+**What I noticed**
+
+> Gaps, duplcates, odd values, name spelling that differ from your other datasets
+
+## 7.
+
+- **Source:**
+- **Retrieved:**
+- **File:** `data/raw/filename`
+- **Format:**
+- **Geometry Type:**
+- **Feature Count:**
+- **CRS as Downloaded:**
+
+## Key Columns
+
+| Column | What it Entails | Nulls |
+|---|---|---|
+|`column 1` | description | count |
+|`column 2` | description | count |
+|`column 3` | description | count |
+
+**What I noticed**
+
+> Gaps, duplcates, odd values, name spelling that differ from your other datasets
+
+## 8.
+
+- **Source:**
+- **Retrieved:**
+- **File:** `data/raw/filename`
+- **Format:**
+- **Geometry Type:**
+- **Feature Count:**
+- **CRS as Downloaded:**
+
+## Key Columns
+
+| Column | What it Entails | Nulls |
+|---|---|---|
+|`column 1` | description | count |
+|`column 2` | description | count |
+|`column 3` | description | count |
+
+**What I noticed**
+
+> Gaps, duplcates, odd values, name spelling that differ from your other datasets
+
+## 9.
+
+- **Source:**
+- **Retrieved:**
+- **File:** `data/raw/filename`
+- **Format:**
+- **Geometry Type:**
+- **Feature Count:**
+- **CRS as Downloaded:**
+
+## Key Columns
+
+| Column | What it Entails | Nulls |
+|---|---|---|
+|`column 1` | description | count |
+|`column 2` | description | count |
+|`column 3` | description | count |
+
+**What I noticed**
+
+> Gaps, duplcates, odd values, name spelling that differ from your other datasets
+
+## 10.
+
+- **Source:**
+- **Retrieved:**
+- **File:** `data/raw/filename`
+- **Format:**
+- **Geometry Type:**
+- **Feature Count:**
+- **CRS as Downloaded:**
+
+## Key Columns
+
+| Column | What it Entails | Nulls |
+|---|---|---|
+|`column 1` | description | count |
+|`column 2` | description | count |
+|`column 3` | description | count |
+
+**What I noticed**
+
+> Gaps, duplcates, odd values, name spelling that differ from your other datasets
+
+## 11.
 
 - **Source:**
 - **Retrieved:**
