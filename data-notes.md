@@ -65,14 +65,14 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 - **File:** `data/raw/Lagos_Drainage_Canals_Network`
 - **Format:** GeoPackage 
 - **Geometry Type:** Line (LineString)
-- **Feature Count:** 22
+- **Feature Count:** 1047
 - **CRS as Downloaded:** EPSG:4326 - WGS 84
 
 ## Key Columns
 
 | Column | What it Entails | Nulls |
 |---|---|---|
-|`waterway` | What type of network it is i.e Is it a drain or a canal | Nil |
+|`waterway` | What type of network it is (i.e Is it a drain or a canal) | Nil |
 |`name` | The name of the Drainage/Canal | 1003 |
 | `tunnel` | description | 736 |
 
