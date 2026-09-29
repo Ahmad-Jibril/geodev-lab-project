@@ -42,7 +42,7 @@ not committed
 ## Month 2: Development Environment and Early Python
 - Week 5: Setup *Python, VS Code, and the Terminal.* `hello.py` runs
 
-
+![Image of Week 5 Task](screenshots/week5.png)
 
 ---
 
