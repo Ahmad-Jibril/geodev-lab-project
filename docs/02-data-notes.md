@@ -208,4 +208,4 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 
 > **Problem 1:**
 
-**Status:** Week 2 completed. Reprojections and quality checks in Week 3, see [03-data-preparation.md](data-preparation.md).
+**Status:** Week 2 completed. Reprojections and quality checks in Week 3, see [03-data-preparation.md](03-data-preparation.md).
