@@ -123,7 +123,7 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 
 ## 6. Land Use Data
 
-- **Source:** 
+- **Source:** Google Earth Engine
 - **Retrieved:** Yes
 - **File:** `data/raw/Lagos_DynamicWorld_10m_2025`
 - **Format:** GeoTIFF
@@ -133,7 +133,7 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 
 ## 7. Rainfall Data
 
-- **Source:** 
+- **Source:** Google Earth Engine
 - **Retrieved:** Yes
 - **File:** `data/raw/Lagos_CHIRPS_Rainfall`
 - **Format:** GeoTIFF
@@ -147,7 +147,7 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 
 ## 8. Soil Composition Grids
 
-- **Source:**
+- **Source:** ISRIC SoilGrids WCS
 - **Retrieved:** Yes
 - **File:** `data/raw/Lagos_Soil_Grids_Texture_0-30cm`
 - **Format:** GeoTIFF
@@ -161,7 +161,7 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 
 ## 9. Public & Institutional Land
 
-- **Source:**
+- **Source:** QuickOSM
 - **Retrieved:** Yes
 - **File:** `data/raw/public_institutional_candidate_sites`
 - **Format:** GeoPackage
@@ -178,7 +178,7 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 
 ## 10. Protected Ecological Reserves
 
-- **Source:**
+- **Source:** World Database on Protected Areas (WDPA)
 - **Retrieved:** Yes
 - **File:** `data/raw/WDPA_Lagos_Protected_Areas`
 - **Format:** GeoPackage
@@ -196,7 +196,7 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 
 ## 11. Sentinel-1 Satellite Imagery
 
-- **Source:**
+- **Source:** Google Earth Engine
 - **Retrieved:** Yes
 - **File:** `data/raw/Sentinel1_Lagos_PeakRainySeason_10m`
 - **Format:** GeoTIFF
