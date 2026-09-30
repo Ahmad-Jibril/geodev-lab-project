@@ -101,25 +101,24 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 
 ## 5. Motorable Roads
 
-- **Source:** 
-- **Retrieved:**
+- **Source:** GeoFabrik Nigeria Extract
+- **Retrieved:** Yes
 - **File:** `data/raw/filename`
-- **Format:**
-- **Geometry Type:**
-- **Feature Count:**
-- **CRS as Downloaded:**
+- **Format:** GeoPackage
+- **Geometry Type:** Line (MultiLineString)
+- **Feature Count:** 96181
+- **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
 
 ## Key Columns
 
 | Column | What it Entails | Nulls |
 |---|---|---|
-|`column 1` | description | count |
-|`column 2` | description | count |
-|`column 3` | description | count |
+|`fid` | The identifier | Nil |
+|`name` | The name of the road | 86203 |
 
 **What I noticed**
 
-> Gaps, duplcates, odd values, name spelling that differ from your other datasets
+> The data included not just roads but waterways and aerialways 
 
 ## 6. Land Use Data
 
@@ -209,4 +208,4 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 
 > **Problem 1:**
 
-**Status:** Week 2 not completed. Reprojections and quality checks in Week 3, see [03-data-preparation.md](data-preparation.md).
+**Status:** Week 2 completed. Reprojections and quality checks in Week 3, see [03-data-preparation.md](data-preparation.md).
