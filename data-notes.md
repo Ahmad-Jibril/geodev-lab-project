@@ -14,7 +14,7 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 
 | S/N | Dataset | Type | Retrieved | Status |
 |---|---|---|---|---|
-|1 | Lagos State LGA Boundaries | Vector | No | Processing |
+|1 | Lagos State LGA Boundaries | Vector | Yes | Good |
 |2 | FABDEM (Bare Earth Elevation) | Raster | Yes | Good |
 |3 | Lagos Drainage Network & Canal | Vector | Yes | Good |
 |4 | Google Open Buildings V3 | Vector | Yes | Good |
@@ -28,25 +28,26 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 
 ## 1. Lagos LGA Boundary
 
-- **Source:**
-- **Retrieved:**
-- **File:** `data/raw/filename`
-- **Format:**
-- **Geometry Type:**
-- **Feature Count:**
-- **CRS as Downloaded:**
+- **Source:** HDX Nigeria
+- **Retrieved:** Yes
+- **File:** `data/raw/Lagos State LGA boundary`
+- **Format:** GeoPackage
+- **Geometry Type:** Polygon (MultiPolygon)
+- **Feature Count:** 20
+- **CRS as Downloaded:** EPSG:4326 - WGS 84
 
 ## Key Columns
 
 | Column | What it Entails | Nulls |
 |---|---|---|
-|`column 1` | description | count |
-|`column 2` | description | count |
-|`column 3` | description | count |
+|`admin1_name` | States the state name | Nil |
+|`admin2_name` | States the LGA name | Nil |
+|`fid` | The identifier | Nil |
 
 **What I noticed**
 
-> Gaps, duplcates, odd values, name spelling that differ from your other datasets
+> - Some of the LGA polygons cover the water bodies
+> - Part of the Lagoon is already cut out (i.e it has no *polygon* feature)
 
 ## 2. FABDEM (Bare Earth Elevation Data)
 
@@ -64,7 +65,7 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 - **Retrieved:** Yes
 - **File:** `data/raw/Lagos_Drainage_Canals_Network`
 - **Format:** GeoPackage 
-- **Geometry Type:** Line (LineString)
+- **Geometry Type:** Line (MultiLineString)
 - **Feature Count:** 1047
 - **CRS as Downloaded:** EPSG:4326 - WGS 84
 
@@ -83,28 +84,24 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 ## 4. Google Open Buildings 
 
 - **Source:** Google-Microsoft Open Buildings
-- **Retrieved:** Yes
-- **File:** `data/raw/Lagos_Google_Open_Building`
+- **Retrieved:** Yes but as a Parquet file which was converted to a `*.gpkg*` file
+- **File:** `data/raw/Lagos_Google_Open_Buildings`
 - **Format:** GeoPackage
-- **Geometry Type:** Polygon
-- **Feature Count:** 
+- **Geometry Type:** Polygon (MultiPolygon)
+- **Feature Count:** 2682816
 - **CRS as Downloaded:** EPSG:4326 - WGS 84
 
 ## Key Columns
 
 | Column | What it Entails | Nulls |
 |---|---|---|
-|`waterway` | description | count |
-|`Column 2` | description  | count |
-|`column 3` | description | count |
+|`fid` | The identifier | Nil |
+|`confidence` | The confidence level for the validity of each building  | Nil |
+|`area_in_meters` | description | Nil |
 
-**What I noticed**
+## 5. Motorable Roads
 
-> Gaps, duplcates, odd values, name spelling that differ from your other datasets
-
-## 5.
-
-- **Source:**
+- **Source:** 
 - **Retrieved:**
 - **File:** `data/raw/filename`
 - **Format:**
