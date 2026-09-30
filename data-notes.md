@@ -24,7 +24,7 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 |8 | Rainfall Data | Raster | Yes | Good |
 |9 | Public & Institutional Land | Vector | Yes | Good|
 |10 | Protected Ecological Reserves | Vector | Yes | Good |
-|11 | Sentinel-1 Satellite Imagery | Vector | Yes | Good |
+|11 | Sentinel-1 Satellite Imagery | Raster | Yes | Good |
 
 ## 1. Lagos LGA Boundary
 
@@ -34,7 +34,7 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 - **Format:** GeoPackage
 - **Geometry Type:** Polygon (MultiPolygon)
 - **Feature Count:** 20
-- **CRS as Downloaded:** EPSG:4326 - WGS 84
+- **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
 
 ## Key Columns
 
@@ -67,7 +67,7 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 - **Format:** GeoPackage 
 - **Geometry Type:** Line (MultiLineString)
 - **Feature Count:** 1047
-- **CRS as Downloaded:** EPSG:4326 - WGS 84
+- **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
 
 ## Key Columns
 
@@ -89,7 +89,7 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 - **Format:** GeoPackage
 - **Geometry Type:** Polygon (MultiPolygon)
 - **Feature Count:** 2682816
-- **CRS as Downloaded:** EPSG:4326 - WGS 84
+- **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
 
 ## Key Columns
 
@@ -121,137 +121,89 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 
 > Gaps, duplcates, odd values, name spelling that differ from your other datasets
 
-## 6.
+## 6. Land Use Data
+
+- **Source:** 
+- **Retrieved:** Yes
+- **File:** `data/raw/Lagos_DynamicWorld_10m_2025`
+- **Format:** GeoTIFF
+- **Geometry Type:** Raster (1-band)
+- **Feature Count:** Nil
+- **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
+
+## 7. Rainfall Data
+
+- **Source:** 
+- **Retrieved:** Yes
+- **File:** `data/raw/Lagos_CHIRPS_Rainfall`
+- **Format:** GeoTIFF
+- **Geometry Type:** Raster (1-band)
+- **Feature Count:** Nil
+- **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
+
+  **What I noticed**
+
+> The data didn't cover some of the parts of Lagos which are towards the Lagoon 
+
+## 8. Soil Composition Grids
 
 - **Source:**
-- **Retrieved:**
-- **File:** `data/raw/filename`
-- **Format:**
-- **Geometry Type:**
-- **Feature Count:**
-- **CRS as Downloaded:**
+- **Retrieved:** Yes
+- **File:** `data/raw/Lagos_Soil_Grids_Texture_0-30cm`
+- **Format:** GeoTIFF
+- **Geometry Type:** Raster (3-bands)
+- **Feature Count:** Nil
+- **CRS as Downloaded:** ESRI:54009 - World_Mollweide - Projected
+
+  **What I noticed**
+
+  > The CRS differs completely from the rest of the datasets
+
+## 9. Public & Institutional Land
+
+- **Source:**
+- **Retrieved:** Yes
+- **File:** `data/raw/public_institutional_candidate_sites`
+- **Format:** GeoPackage
+- **Geometry Type:** Point
+- **Feature Count:** 1199
+- **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
 
 ## Key Columns
 
 | Column | What it Entails | Nulls |
 |---|---|---|
-|`column 1` | description | count |
-|`column 2` | description | count |
-|`column 3` | description | count |
+|`fid` | The identifier | Nil |
+|`name` | The name of the land | Nil |
 
-**What I noticed**
-
-> Gaps, duplcates, odd values, name spelling that differ from your other datasets
-
-## 7.
+## 10. Protected Ecological Reserves
 
 - **Source:**
-- **Retrieved:**
-- **File:** `data/raw/filename`
-- **Format:**
-- **Geometry Type:**
-- **Feature Count:**
-- **CRS as Downloaded:**
+- **Retrieved:** Yes
+- **File:** `data/raw/WDPA_Lagos_Protected_Areas`
+- **Format:** GeoPackage
+- **Geometry Type:** Polygon
+- **Feature Count:** 3
+- **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
 
 ## Key Columns
 
 | Column | What it Entails | Nulls |
 |---|---|---|
-|`column 1` | description | count |
-|`column 2` | description | count |
-|`column 3` | description | count |
+|`fid` | The identifier | Nil |
+|`name` | The name of the reserve | Nil |
+|`DESIG` | The type of reserve | Nil |
 
-**What I noticed**
-
-> Gaps, duplcates, odd values, name spelling that differ from your other datasets
-
-## 8.
+## 11. Sentinel-1 Satellite Imagery
 
 - **Source:**
-- **Retrieved:**
-- **File:** `data/raw/filename`
-- **Format:**
-- **Geometry Type:**
-- **Feature Count:**
-- **CRS as Downloaded:**
+- **Retrieved:** Yes
+- **File:** `data/raw/Sentinel1_Lagos_PeakRainySeason_10m`
+- **Format:** GeoTIFF
+- **Geometry Type:** Raster (1-band)
+- **Feature Count:** Nil
+- **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
 
-## Key Columns
-
-| Column | What it Entails | Nulls |
-|---|---|---|
-|`column 1` | description | count |
-|`column 2` | description | count |
-|`column 3` | description | count |
-
-**What I noticed**
-
-> Gaps, duplcates, odd values, name spelling that differ from your other datasets
-
-## 9.
-
-- **Source:**
-- **Retrieved:**
-- **File:** `data/raw/filename`
-- **Format:**
-- **Geometry Type:**
-- **Feature Count:**
-- **CRS as Downloaded:**
-
-## Key Columns
-
-| Column | What it Entails | Nulls |
-|---|---|---|
-|`column 1` | description | count |
-|`column 2` | description | count |
-|`column 3` | description | count |
-
-**What I noticed**
-
-> Gaps, duplcates, odd values, name spelling that differ from your other datasets
-
-## 10.
-
-- **Source:**
-- **Retrieved:**
-- **File:** `data/raw/filename`
-- **Format:**
-- **Geometry Type:**
-- **Feature Count:**
-- **CRS as Downloaded:**
-
-## Key Columns
-
-| Column | What it Entails | Nulls |
-|---|---|---|
-|`column 1` | description | count |
-|`column 2` | description | count |
-|`column 3` | description | count |
-
-**What I noticed**
-
-> Gaps, duplcates, odd values, name spelling that differ from your other datasets
-
-## 11.
-
-- **Source:**
-- **Retrieved:**
-- **File:** `data/raw/filename`
-- **Format:**
-- **Geometry Type:**
-- **Feature Count:**
-- **CRS as Downloaded:**
-
-## Key Columns
-
-| Column | What it Entails | Nulls |
-|---|---|---|
-|`column 1` | description | count |
-|`column 2` | description | count |
-|`column 3` | description | count |
-
-**What I noticed**
-
-> Gaps, duplcates, odd values, name spelling that differ from your other datasets
 
 ## Cross-Cutting problems
 
