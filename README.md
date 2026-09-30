@@ -35,9 +35,10 @@ not committed
 ## Progress
 
 - [x] Week 1, project brief with a source link for every dataesets
-- [ ] Week 2, data downloaded, opened, and described
+- [x] Week 2, data downloaded, opened, and described
 - [ ] Week 3, reprojected, clipped, and quality check
 - [ ] Week 4, first spatial analysis
+- [x] Week 5, `hello.py` runs
 
 ## Month 2: Development Environment and Early Python
 - Week 5: Setup *Python, VS Code, and the Terminal.* `hello.py` runs
