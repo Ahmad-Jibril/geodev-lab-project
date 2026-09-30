@@ -84,7 +84,7 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 ## 4. Google Open Buildings 
 
 - **Source:** Google-Microsoft Open Buildings
-- **Retrieved:** Yes but as a Parquet file which was converted to a `*.gpkg*` file
+- **Retrieved:** Yes but as a Parquet file which was converted to a *`.gpkg`* file
 - **File:** `data/raw/Lagos_Google_Open_Buildings`
 - **Format:** GeoPackage
 - **Geometry Type:** Polygon (MultiPolygon)
