@@ -41,7 +41,7 @@
 
 | S/N | Dataset | Role | Source | File Format | File Size 
 |---|---|---|---|---|---|
-|1 | Lagos State & LGA Boundaries (20 LGAs) | Defines the boundaries for the study area and breaks the analysis down by LGA, so basin sites can be identified within each one | [Google Earth Engine](https://code.earthengine.google.com/) | `GeoJSON` | 50KB |
+|1 | Lagos State & LGA Boundaries (20 LGAs) | Defines the boundaries for the study area and breaks the analysis down by LGA, so basin sites can be identified within each one | [HDX Nigeria](https://data.humdata.org/) | `GeoJSON` | 10.9MB |
 |2 | FABDEM v1.2 (Bare Earth Elevation Data) | Shows the actual ground elevation with buildings and trees removed, used to work out slope, how water flows across the land, and how wet different areas tend to get — all needed to model where flooding accumulates | [Awesome GEE Community Catalog](https://gee-community-catalog.org/) | `GeoTIFF` | 17.2MB |
 |3 | Lagos Drainage Network & Canals | Used to correct the elevation data so that raised roads don't accidentally look like dams blocking water flow, and to measure how close each area is to an actual drainage channel — a key flood risk factor | [OpenStreetMap](https://overpass-turbo.eu/) | `GeoPackage` | 520KB |
 |4 | Google Open Buildings V3 | Maps every permanent building across the state, so we can measure how much built-up area falls inside high risk flood zones | [Google Open Buildings](https://source.coop/) | `PARQUET` | 1.06GB
