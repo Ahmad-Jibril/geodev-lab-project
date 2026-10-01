@@ -120,4 +120,4 @@ For example, I converted the Motorable Roads layer from `.osm.pbf` to `.gpkg`, w
 
 ---
 
-**Status:** Week 3 complete. First spatial analysis in Week 4, see [04-month-1-summary.md](04-month-1-summary.md).
+**Status:** Week 3 complete. First spatial analysis in Week 4, see [04-month-1-summary.md](docs/04-month-1-summary.md).
