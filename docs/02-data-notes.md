@@ -106,7 +106,7 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 - **File:** `data/raw/filename`
 - **Format:** OSM PBF
 - **Geometry Type:** Line (MultiLineString)
-- **Feature Count:** unknown
+- **Feature Count:** 1,885,172
 - **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
 
 ## Key Columns
@@ -114,7 +114,7 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 | Column | What it Entails | Nulls |
 |---|---|---|
 |`fid` | The identifier | Nil |
-|`name` | The name of the road | 86203 |
+|`name` | The name of the road | 1,852,719 |
 
 **What I noticed**
 
