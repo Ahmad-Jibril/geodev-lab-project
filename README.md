@@ -5,7 +5,7 @@ This project is directed to *Lagos State Urban and Regional Planners,* which sta
 
 ***GeoDev Lab Africa, Cohort One.***
 
-See ![**01-project-brief.md**](01-project-brief.md) for the full brief.
+See [**01-project-brief.md**](01-project-brief.md) for the full brief.
 
 ---
 
