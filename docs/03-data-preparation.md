@@ -1,5 +1,11 @@
 # Data Preparation
 
+**Week 3 Deliverables.** GeoDev Lab Africa Cohort 1.
+
+**Author:** *Ahmad Jibril-Adeyemi*
+
+---
+
 ## 1. Coordinate System Decision
 
 Lagos State, the chosen CRS is in meters
