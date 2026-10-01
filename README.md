@@ -29,6 +29,8 @@ Flood Mapping & Mitigation/
 not committed
     └── processed/                    output,
 └── scripts/
+└── screenshots/
+    └── Week5.png                     Week 5
 └── requirements.txt
 ```
 
