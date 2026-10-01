@@ -30,7 +30,7 @@ and it is projected to UTM Zone 31
 
 ## 2. Clipping to The Study Area
 
-- **Boundary Used:** 
+- **Boundary Used:** `data/processed/LOS LGA Boundary.gpkg`
 - **Feature before Clipping:** Covered the whole of Nigeria
 - **Feature after Clipping:** Covered just the needed area (Lagos State) and erased the 
 unneeded data that covered the remaining unneeded part
@@ -47,15 +47,76 @@ unneeded data that covered the remaining unneeded part
 
 ## 5. Problems Found, and What I did
   
-Some layers were taking a while to load because of the file format, so I exported them as GeoPackages instead. For example, I converted the Motorable Roads layer from `.osm.pbf` to `.gpkg`, which made processing much faster.
+Some layers were taking a while to load because of the file format, so I exported them as GeoPackages instead.
+For example, I converted the Motorable Roads layer from `.osm.pbf` to `.gpkg`, which made processing much faster.
 
 ## 6. The Analysis Ready Output
 
-- **File:** 
-- **Format:** GeoTIFF(s) and GeoPackage(s), 
-- **CRS:** EPSG:32631
-- **Features:** Vector and Rasters
-- **Produced:** Manually in QGIS
+> - **File:** `data/processed/LOS LGA Boundary.gpkg`
+> - **Format:** GeoPackage 
+> - **CRS:** EPSG:32631
+> - **Feature Count:** 20
+> - **Produced:** Manually in QGIS
+
+> - **File:** `data/processed/LOS Motorable Road.gpkg`
+> - **Format:** GeoPackage 
+> - **CRS:** EPSG:32631
+> - **Feature Count:** 96,181
+> - **Produced:** Manually in QGIS
+
+> - **File:** `data/processed/LOS Bare Earth Elevation.tif`
+> - **Format:** GeoTIFF
+> - **CRS:** EPSG:32631
+> - **Feature Count:** Nil
+> - **Produced:** Manually in QGIS
+
+> - **File:** `data/processed/LOS Rainfall.tif`
+> - **Format:** GeoTIFF 
+> - **CRS:** EPSG:32631
+> - **Feature Count:** Nil
+> - **Produced:** Manually in QGIS
+
+> - **File:** `data/processed/LOS Drainage & Canal Network.gpkg`
+> - **Format:** GeoPackage 
+> - **CRS:** EPSG:32631
+> - **Feature Count:** 1,043
+> - **Produced:** Manually in QGIS
+
+> - **File:** `data/processed/LOS Land Use.tif`
+> - **Format:** GeoTIFF 
+> - **CRS:** EPSG:32631
+> - **Feature Count:** Nil
+> - **Produced:** Manually in QGIS
+
+> - **File:** `data/processed/LOS Buildings.gpkg`
+> - **Format:** GeoPackage 
+> - **CRS:** EPSG:32631
+> - **Feature Count:** 2,682,816
+> - **Produced:** Manually in QGIS
+
+> - **File:** `data/processed/LOS Soil Texture.tif`
+> - **Format:** GeoTIFF
+> - **CRS:** EPSG:32631
+> - **Feature Count:** Nil
+> - **Produced:** Manually in QGIS
+
+> - **File:** `data/processed/LOS Candidate Sites.gpkg`
+> - **Format:** GeoPackage 
+> - **CRS:** EPSG:32631
+> - **Feature Count:** 1,199
+> - **Produced:** Manually in QGIS
+
+> - **File:** `data/processed/LOS Peak Rainy Season.tif`
+> - **Format:** GeoTIFF
+> - **CRS:** EPSG:32631
+> - **Feature Count:** Nil
+> - **Produced:** Manually in QGIS
+
+> - **File:** `data/processed/LOS Protected Areas.gpkg`
+> - **Format:** GeoPackage 
+> - **CRS:** EPSG:32631
+> - **Feature Count:** 3
+> - **Produced:** Manually in QGIS
 
 ---
 
