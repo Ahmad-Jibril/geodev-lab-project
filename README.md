@@ -36,7 +36,7 @@ not committed
 
 - [x] Week 1, project brief with a source link for every dataesets
 - [x] Week 2, data downloaded, opened, and described
-- [ ] Week 3, reprojected, clipped, and quality check
+- [x] Week 3, reprojected, clipped, and quality check
 - [ ] Week 4, first spatial analysis
 - [x] Week 5, `hello.py` runs
 
