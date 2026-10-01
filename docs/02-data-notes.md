@@ -31,17 +31,17 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 - **Source:** HDX Nigeria
 - **Retrieved:** Yes
 - **File:** `data/raw/Lagos State LGA boundary`
-- **Format:** GeoPackage
+- **Format:** GeoJSON
 - **Geometry Type:** Polygon (MultiPolygon)
-- **Feature Count:** 20
+- **Feature Count:** 774
 - **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
 
 ## Key Columns
 
 | Column | What it Entails | Nulls |
 |---|---|---|
-|`admin1_name` | States the state name | Nil |
-|`admin2_name` | States the LGA name | Nil |
+|`adm1_name` | States the state name | Nil |
+|`adm2_name` | States the LGA name | Nil |
 |`fid` | The identifier | Nil |
 
 **What I noticed**
@@ -75,7 +75,7 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 |---|---|---|
 |`waterway` | What type of network is it (i.e Is it a drain or a canal) | Nil |
 |`name` | The name of the Drainage/Canal | 1003 |
-| `tunnel` | description | 736 |
+| `tunnel` | The type of tunnel was dug | 736 |
 
 **What I noticed**
 
@@ -84,11 +84,11 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 ## 4. Google Open Buildings 
 
 - **Source:** Google-Microsoft Open Buildings
-- **Retrieved:** Yes but as a Parquet file which was converted to a *`.gpkg`* file
+- **Retrieved:** Yes
 - **File:** `data/raw/Lagos_Google_Open_Buildings`
-- **Format:** GeoPackage
-- **Geometry Type:** Polygon (MultiPolygon)
-- **Feature Count:** 2682816
+- **Format:** Parquet
+- **Geometry Type:** Polygon
+- **Feature Count:** 8,436,952
 - **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
 
 ## Key Columns
@@ -104,9 +104,9 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 - **Source:** GeoFabrik Nigeria Extract
 - **Retrieved:** Yes
 - **File:** `data/raw/filename`
-- **Format:** GeoPackage
+- **Format:** OSM PBF
 - **Geometry Type:** Line (MultiLineString)
-- **Feature Count:** 96181
+- **Feature Count:** unknown
 - **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
 
 ## Key Columns
@@ -163,9 +163,9 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 - **Source:** QuickOSM
 - **Retrieved:** Yes
 - **File:** `data/raw/public_institutional_candidate_sites`
-- **Format:** GeoPackage
+- **Format:** GeoJSON
 - **Geometry Type:** Point
-- **Feature Count:** 1199
+- **Feature Count:** 1988
 - **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
 
 ## Key Columns
@@ -180,9 +180,9 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 - **Source:** World Database on Protected Areas (WDPA)
 - **Retrieved:** Yes
 - **File:** `data/raw/WDPA_Lagos_Protected_Areas`
-- **Format:** GeoPackage
+- **Format:** GeoJSON
 - **Geometry Type:** Polygon
-- **Feature Count:** 3
+- **Feature Count:** 5
 - **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
 
 ## Key Columns
