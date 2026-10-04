@@ -52,15 +52,8 @@
 |9 | Public & Institutional Land | Provides the pool of candidate sites — schools, transport depots, open spaces, sports grounds — that get screened down to three viable public locations per LGA | [QuickOSM](https://grid3.org/) | `GeoJSON` | 437KB
 |10 | Protected Ecological Reserves | Marks off limits areas — protected conservation zones and mangrove reserves — to make sure no retention basin is placed somewhere it shouldn't be | [World Database on Protected Areas (WDPA)](https://www.protectedplanet.net) | `GeoJSON` | 384KB
 |11 | Sentinel-1 Satellite Radar Imagery | Checks the flood zones the model predicts against actual satellite images of past flooding during peak rainy seasons, to confirm the model is accurate | [Google Earth Engine](https://code.earthengine.google.com/) | `GeoTIFF` | 1016MB
+|12 | Lagos State Water Bodies | Marks out the boundaries of water bodies in the study area, so they can be excluded from the LGAs when selecting basin sites — making sure no basin ends up inside a lake, river, or lagoon. | [HDX Nigeria](https://data.humdata.org/) | `GeoPackage` | 89.5 MB |
 
-## 6. What Done Looks Like
-
-> Describe the finished output in two or three sentences
-> A map? A table? or both? reproducible by whom?
-
-## Known Risks
-
-- **Risk 1:** What could go wrong and how you will go about it
-- **Risk 2:** What could go wrong and how you will go about it
+---
 
 **Status:** Week 1 completed. Data acquisition in Week 2, See [02-data-notes.md](02-data-notes.md).
