@@ -53,7 +53,7 @@ For example, I converted the Motorable Roads layer from `.osm.pbf` to `.gpkg`, w
 
 ## 6. The Analysis Ready Output
 
-> - **File:** `data/processed/LOS LGA Boundary.gpkg`
+> - **File:** `data/processed/LOS Terrestrial LGAs.gpkg`
 > - **Format:** GeoPackage 
 > - **CRS:** EPSG:32631
 > - **Feature Count:** 20
