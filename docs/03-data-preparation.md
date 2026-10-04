@@ -24,6 +24,7 @@ and it is projected to UTM Zone 31
 |9 | Google Open Buildings | EPSG:4326 | EPSG:32631 | Reprojection |
 |10 | Protected Ecological Reserves | EPSG:4326 | EPSG:32631 | Reprojection |
 |11 | Sentinel-1 Satellite Imagery | EPSG:4326 | EPSG:32631 | Reprojection |
+|11 | Lagos State Waterways Boundary | EPSG:4326 | EPSG:32631 | Reprojection |
 
 > Reprojecting recalculates every coordinate.
 > Assigning a CRS only relabels the data
@@ -116,6 +117,12 @@ For example, I converted the Motorable Roads layer from `.osm.pbf` to `.gpkg`, w
 > - **Format:** GeoPackage 
 > - **CRS:** EPSG:32631
 > - **Feature Count:** 3
+> - **Produced:** Manually in QGIS
+
+> - **File:** `data/processed/LOS Waterways.gpkg`
+> - **Format:** GeoPackage 
+> - **CRS:** EPSG:32631
+> - **Feature Count:** 298
 > - **Produced:** Manually in QGIS
 
 ---
