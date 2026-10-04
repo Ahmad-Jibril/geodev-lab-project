@@ -25,6 +25,7 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 |9 | Public & Institutional Land | Vector | Yes | Good|
 |10 | Protected Ecological Reserves | Vector | Yes | Good |
 |11 | Sentinel-1 Satellite Imagery | Raster | Yes | Good |
+|12 | Lagos State Waterways Boundary | Vector | Yes | Good |
 
 ## 1. Lagos LGA Boundary
 
@@ -203,9 +204,24 @@ What I downloaded, where it came from, what is in it, and what is wrong with it.
 - **Feature Count:** Nil
 - **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
 
+## 12. Lagos State Waterways Boundary
 
-## Cross-Cutting problems
+- **Source:** HDX Nigeria
+- **Retrieved:** Yes
+- **File:** `data/raw/`waterways`
+- **Format:** GeoPackage
+- **Geometry Type:** Polygon (MultiPolygon)
+- **Feature Count:** 15,224
+- **CRS as Downloaded:** EPSG:4326 - WGS 84 - Geographic
 
-> **Problem 1:**
+## Key Columns
+
+| Column | What it Entails | Nulls |
+|---|---|---|
+|`name` | The name of the waterway | 15040 |
+|`natural_class` | The type of class the waterway belongs to (e.g wetland, water) | 50 |
+|`water` | The kind of water it is (e.g pond, lake) | 9549 |
+
+---
 
 **Status:** Week 2 completed. Reprojections and quality checks in Week 3, see [03-data-preparation.md](03-data-preparation.md).
