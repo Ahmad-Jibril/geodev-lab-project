@@ -1,4 +1,4 @@
-# Flood Mapping & Mitigation Across Lagos State
+# Flood Susceptibilty Mapping & Mitigation Across Lagos State
 
 This project is directed to *Lagos State Urban and Regional Planners,* which states the **causes of flood, the risks it brings,** 
 **and the solution needed to solve the flooding problem across Lagos, Nigeria.**
