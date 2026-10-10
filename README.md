@@ -30,8 +30,10 @@ not committed
     └── processed/                    output,
 └── scripts/
     └── hello.py                      Week 5
+    └── check.py                      Week 6
 └── screenshots/
     └── week5.png                     Week 5
+    └── week6.png                     Week 6
 └── requirements.txt
 ```
 
@@ -42,11 +44,16 @@ not committed
 - [x] Week 3, reprojected, clipped, and quality check
 - [ ] Week 4, first spatial analysis
 - [x] Week 5, `hello.py` runs
+- [x] Week 6, `check.py` runs
 
 ## Month 2: Development Environment and Early Python
 - Week 5: Setup *Python, VS Code, and the Terminal.* `hello.py` runs
 
 ![Image of Week 5 Task](screenshots/week5.png)
+
+- Week 6: Added *2 packages through UV* `check.py` runs
+
+![Image of Week 5 Task](screenshots/week6.png)
 
 ---
 
