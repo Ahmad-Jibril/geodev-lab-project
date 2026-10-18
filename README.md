@@ -51,15 +51,15 @@ not committed
 - [x] Week 7, `analyse.py` reads `wards.csv`, converts each area and classifies each ward
 
 ## Month 2: Development Environment and Early Python
-- Week 5: Setup *Python, VS Code, and the Terminal.* `hello.py` runs
+- **Week 5:** Setup *Python, VS Code, and the Terminal.* `hello.py` runs
 
 ![Image of Week 5 Task](screenshots/week5.png)
 
-- Week 6: Added *2 packages through UV* `check.py` runs
+- **Week 6:** Added *2 packages through UV* `check.py` runs
 
 ![Image of Week 6 Task](screenshots/week6.png)
 
-- Week 7: `analyse.py` reads `wards.csv`, converts each area and classifies each ward
+- **Week 7:** `analyse.py` reads `wards.csv`, converts each area and classifies each ward
 
 ![Image of Week 7 Task Running](screenshots/week7.png)
 
