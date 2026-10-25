@@ -34,8 +34,8 @@ not committed
     └── check.py                      Week 6
     └── ward.csv                      Week 7
     └── analyse.py                    Week 7
-    └── buildings.csv                 Week 8
-    └── inspect_data.py             Week 8
+    └── reduced_buildings.zip         Week 8
+    └── inspect_data.py               Week 8
 └── screenshots/
     └── week5.png                     Week 5
     └── week6.png                     Week 6
