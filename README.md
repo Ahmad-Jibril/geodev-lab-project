@@ -1,6 +1,7 @@
 # Flood Risk Mapping & Mitigation Across Lagos State
 
-This project is directed to *Lagos State Urban and Regional Planners,* which states the **causes of flood, the risks it brings,** 
+This project is directed to *Lagos State Urban and Regional Planners,*
+which states the **causes of flood, the risks it brings,** 
 **and the solution needed to solve the flooding problem across Lagos, Nigeria.**
 
 ***GeoDev Lab Africa, Cohort One.***
@@ -33,10 +34,13 @@ not committed
     └── check.py                      Week 6
     └── ward.csv                      Week 7
     └── analyse.py                    Week 7
+    └── buildings.csv                 Week 8
+    └── inspect_data.py             Week 8
 └── screenshots/
     └── week5.png                     Week 5
     └── week6.png                     Week 6
     └── week7.png                     Week 7
+    └── week8.png                     Week 8
 └── requirements.txt
 ```
 
@@ -49,6 +53,8 @@ not committed
 - [x] Week 5, `hello.py` runs
 - [x] Week 6, `check.py` runs
 - [x] Week 7, `analyse.py` reads `wards.csv`, converts each area and classifies each ward
+- [x] Week 8, `inspect_data.py` summarises the area of buildings and their confidence
+  existence level in my buildings data
 
 ## Month 2: Development Environment and Early Python
 - **Week 5:** Setup *Python, VS Code, and the Terminal.* `hello.py` runs
@@ -62,6 +68,11 @@ not committed
 - **Week 7:** `analyse.py` reads `wards.csv`, converts each area and classifies each ward
 
 ![Image of Week 7 Task Running](screenshots/week7.png)
+
+- **Week 8:** `inspect_data.py` summarises the area of buildings and their confidence
+  existence level in my buildings data
+
+![Image of Week 8 Task Running](screenshots/week8.png)
 
 ---
 
