@@ -1,7 +1,7 @@
 from itertools import islice
 import csv
 with open("buildings.csv", encoding = "utf-8-sig") as f:
-    reader = list(islice(csv.DictReader(f), 1000000))
+    reader = list(islice(csv.DictReader(f), 300000))
 print(f"Number of rows: {len(reader)}")
 print(f"The columns are: {list(reader[0].keys())}")
 
